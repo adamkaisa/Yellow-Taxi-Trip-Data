@@ -56,7 +56,6 @@ const Dashboard = () => {
       </Typography>
       
       <Grid container spacing={2}>
-        {/* Sidebar (Analytics Dashboard + Pie Chart) */}
         <Grid item xs={12} md={3}>
           <Grid container spacing={2}>
             {/* Analytics Dashboard */}
@@ -93,7 +92,6 @@ const Dashboard = () => {
           </Grid>
         </Grid>
 
-        {/* Main Content (Map + Line Chart) */}
         <Grid item xs={12} md={9}>
           <Grid container spacing={2}>
             {/* Map */}
