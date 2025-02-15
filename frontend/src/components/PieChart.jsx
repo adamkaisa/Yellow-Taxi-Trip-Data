@@ -24,19 +24,19 @@ const PieChart = ({ trips }) => {
         backgroundColor: ["#FF6384", "#36A2EB"],
         borderWidth: 2,
         borderColor: "#444",
-        hoverOffset: 20, // Efek hover lebih kecil agar tidak keluar dari container
+        hoverOffset: 20,
       },
     ],
   };
 
   const options = {
     responsive: true,
-    maintainAspectRatio: false, // Mencegah chart terpotong
+    maintainAspectRatio: false,
     layout: {
-      padding: 20, // Memberi ruang ekstra agar efek hover tidak terpotong
+      padding: 20,
     },
     plugins: {
-      legend: { display: false }, // Matikan legend default
+      legend: { display: false },
       tooltip: {
         enabled: true,
         callbacks: {
@@ -51,11 +51,10 @@ const PieChart = ({ trips }) => {
   return (
     <div className="pie-container" style={{ minHeight: "350px", textAlign: "center" }}>
       <h2>Payment Type Distribution</h2>
-      <div style={{ height: "250px" }}> {/* Menyesuaikan ukuran canvas */}
+      <div style={{ height: "250px" }}>
         <Pie data={data} options={options} />
       </div>
 
-      {/* Tambahkan legend manual di bawah chart */}
       <div style={{ display: "flex", justifyContent: "center", gap: "20px", marginTop: "10px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "5px", fontSize: "14px", color: "#444" }}>
           <div style={{ width: "15px", height: "15px", backgroundColor: "#FF6384", borderRadius: "50%" }}></div>
