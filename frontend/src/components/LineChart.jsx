@@ -48,7 +48,7 @@ const LineChart = ({ trips }) => {
 
   return (
     <div className="chart-container" style={{ minHeight: "350px", textAlign: "center" }}>
-      <h2 style={{ fontSize: "20px", fontWeight: "bold", marginBottom: "15px", color: "#222", marginRight: "15px" }}>
+      <h2 style={{ fontSize: "25px", fontWeight: "bold", marginBottom: "10px", color: "#222", marginRight: "15px" }}>
         Fare Analytics
       </h2>
       <div style={{ height: "350px" }}>
