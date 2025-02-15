@@ -1,5 +1,5 @@
 # 🚖 Yellow Taxi Trip Data
-Yellow Taxi Trip Data Platform is a full-stack project built with React.js that provides a real-time dashboard to visualize taxi trips data in New York City. The platform consists of a backend that imports and processes trip data into [Supabase](https://supabase.com/) (PostgreSQL + PostGIS) and a frontend that displays the data using interactive maps and charts.
+Yellow Taxi Trip Data is a full-stack project built with React.js that provides a real-time dashboard to visualize taxi trips data in New York City. The platform consists of a backend that imports and processes trip data into [Supabase](https://supabase.com/) (PostgreSQL + PostGIS) and a frontend that displays the data using interactive maps and charts.
 
 ## 📁 Project Structure
 ```
